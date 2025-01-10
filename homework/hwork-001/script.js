@@ -1,6 +1,7 @@
 const myName = "Nikita";
 const helloWorld = `Hello, ${myName}`;
-console.log(helloWorld);
+const timeLog = new Date().toLocaleString();
 
-timeLog = new Date().toLocaleString();
-console.log(timeLog);
+const fullText = `Привет! Меня зовут ${myName}! Текущее время ${timeLog}`;
+
+setTimeout(() => alert(fullText), 1000);
