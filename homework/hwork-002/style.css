@@ -1,0 +1,37 @@
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.f_block {
+  background-color: burlywood;
+  color: white;
+}
+
+.f_span {
+  color: blueviolet;
+}
+
+.tomato_block {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
+.tomato_block span {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 5px 10px;
+}
+
+.t_block {
+  background-color: gold;
+  width: 300px;
+}
+
+.t_block div span {
+  background-color: goldenrod;
+}
