@@ -1,0 +1,34 @@
+header {
+  background-color: lightseagreen;
+  color: white;
+  height: 60px;
+}
+
+header a {
+  color: white;
+  text-transform: none;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline;
+}
+
+img {
+  height: 300px;
+  width: 350px;
+}
+
+blockquote {
+  background-color: lightcoral;
+  color: white;
+  padding: 8px 12px;
+}
+
+footer {
+  height: 300px;
+  background-color: lightgreen;
+}
