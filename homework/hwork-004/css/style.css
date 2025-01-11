@@ -1,0 +1,32 @@
+div p {
+  border-bottom: 1px solid black;
+  padding-bottom: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+div .one {
+  font-style: italic;
+}
+
+div .two {
+  text-decoration: line-through;
+}
+
+div .three {
+  text-transform: uppercase;
+}
+
+div .four {
+  text-decoration: overline wavy;
+  word-spacing: 30px;
+}
+
+div .five {
+  margin: 0;
+  padding: 0;
+  border-bottom: 5px double black;
+  letter-spacing: 5px;
+}
