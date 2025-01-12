@@ -1,0 +1,24 @@
+.container {
+  padding: 30px;
+  background-color: lightgrey;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow-y: scroll;
+  max-height: 500px;
+  border: 1px solid black;
+}
+
+.container-box {
+  max-width: 1490px;
+}
+
+.box {
+  display: inline-block;
+  max-width: 350px;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin: 8px;
+  padding: 22px;
+  background-color: lightsalmon;
+  box-shadow: 15px 10px 5px -3px #ed6742;
+}
