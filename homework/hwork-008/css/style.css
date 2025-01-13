@@ -4,10 +4,16 @@
   --accent-color: orange;
   /* text transform */
   --uppercase: uppercase;
+  --font: "Roboto", sans-serif;
+
+  /* button */
+  --btn-color: orange;
+  --btn-radius: 4px;
 }
 
 body {
   background-color: var(--bg-color);
+  font-family: var(--font);
 }
 
 .container {
@@ -22,4 +28,14 @@ body {
 
 h1 {
   text-transform: var(--uppercase);
+}
+
+button {
+  color: var(--btn-color);
+  padding: 8px 12px;
+  background-color: var(--bg-color);
+  border-color: var(--accent-color);
+  cursor: pointer;
+  text-transform: var(--uppercase);
+  border-radius: var(--btn-radius);
 }
