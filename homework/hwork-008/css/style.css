@@ -1,0 +1,25 @@
+:root {
+  --bg-color: #063324;
+  --text-color: #fff;
+  --accent-color: orange;
+  /* text transform */
+  --uppercase: uppercase;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.block {
+  color: var(--text-color);
+}
+
+h1 {
+  text-transform: var(--uppercase);
+}
