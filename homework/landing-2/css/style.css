@@ -1,0 +1,284 @@
+:root {
+  --main-pd: 18px 20px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: calc(20 / 16);
+  color: #25282b;
+  background-color: #f8fcff;
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  padding: 30px 0;
+  line-height: 150%;
+}
+
+.header__innner {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 15px;
+  align-content: center;
+  align-items: center;
+}
+
+.header__socials {
+  justify-content: end;
+}
+
+.nav {
+}
+.nav__list {
+  display: flex;
+  gap: 10px 30px;
+  flex-wrap: wrap;
+}
+.nav__item {
+}
+.nav__link {
+}
+.logo {
+  max-width: 54px;
+}
+.socials {
+  display: flex;
+  gap: 10px 30px;
+  flex-wrap: wrap;
+}
+
+.header__innner a {
+  color: #25282b;
+  text-decoration: none;
+}
+
+/* Main */
+
+.hero {
+  padding: 120px 0;
+  line-height: 1.5;
+  color: #f8fcff;
+
+  position: relative;
+}
+
+.hero__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__title {
+  font-size: 52px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.hero__benefit {
+}
+.hero__benefit-item {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 15px;
+  cursor: pointer;
+
+  transition: color 0.3s ease, fill 0.3s ease;
+}
+
+.hero__benefit-item:hover {
+  color: #1d6f86;
+}
+
+.hero__benefit-item:hover path {
+  fill: #1d6f86;
+}
+
+.hero__benefit-item:last-child {
+  margin-bottom: 40px;
+}
+
+.video-bg {
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 100px;
+}
+
+.hero__btn {
+  padding: var(--main-pd);
+  max-height: 56px;
+  max-width: 288px;
+  width: 100%;
+  background: rgb(208, 220, 231);
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  transition: background 0.3s, color 0.3s; /* Плавный переход для фона и цвета текста */
+}
+
+.hero__btn:hover {
+  background: #1d6fb6; /* Цвет фона при наведении */
+  color: #ffffff; /* Цвет текста при наведении */
+}
+
+.video-bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.video-bg video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.video-bg::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+
+  background: #102e49;
+  opacity: 0.7;
+}
+
+/* section content */
+
+.content {
+  padding: 120px 0;
+}
+
+.content__block {
+  display: flex;
+  gap: 126px;
+}
+
+.content__menu {
+  line-height: 20px;
+  padding: 30px;
+  max-width: 282px;
+  height: 1100px;
+  width: 100%;
+  border: 1px solid #d0dce7;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content__laptop {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  grid-auto-flow: dense;
+}
+
+.content__laptop img {
+  width: 100%;
+}
+
+.laptop__big-left {
+  grid-column: 1 / 3;
+  grid-row: span 2;
+}
+
+.laptop__big-right {
+  grid-column: -1 / -3;
+  grid-row: span 3;
+}
+
+/* content__watch */
+
+.content__watch {
+  padding-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.content__watch-block img {
+  max-width: 100%; /* Максимальная ширина изображения */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  margin-bottom: -10px;
+}
+
+.block__under-img {
+  display: flex;
+  padding: 30px 47px;
+  border: 1px solid #d0dce7;
+  border-top: 0;
+}
+
+.watch__btn {
+  padding: var(--main-pd);
+  max-height: 56px;
+  max-width: 288px;
+  width: 100%;
+  background: #d0dce7;
+  border: none;
+  cursor: pointer;
+  color: #1d6fb6;
+  transition: background 0.3s, color 0.3s; /* Плавный переход для фона и цвета текста */
+}
+
+.watch__btn:hover {
+  background: #1d6fb6; /* Цвет фона при наведении */
+  color: #ffffff; /* Цвет текста при наведении */
+}
+
+.watch__block-label {
+  position: relative;
+}
+
+.watch__label {
+  position: absolute;
+  top: 30px;
+  left: 0;
+
+  background-color: #f8fcff;
+  color: #1d6fb6;
+  padding: var(--main-pd);
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 0 100px 100px 0;
+}
+
+/* footer */
+
+.footer {
+  background-color: #788088;
+  padding: 30px 0;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.footer__content path,
+p {
+  color: #f8fcff;
+}
