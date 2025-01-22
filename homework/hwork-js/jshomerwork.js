@@ -3,11 +3,12 @@ const myDescription = {
   lastName: "Ivanov",
   age: 20,
   greet: function () {
-    console.log(`Hello ${this.name} ${this.lastName}`);
+    console.log(`Привет, ${this.name} ${this.lastName}!`);
   },
 };
 
 console.log(myDescription);
+console.log(myDescription.greet());
 
 let simpleUserCount = 0;
 
