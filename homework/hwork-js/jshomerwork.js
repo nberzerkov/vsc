@@ -8,7 +8,8 @@ const myDescription = {
 };
 
 console.log(myDescription);
-console.log(myDescription.greet());
+console.log(`Вызов greet метода:`);
+myDescription.greet();
 
 let simpleUserCount = 0;
 
