@@ -45,4 +45,4 @@ for (let i = 0; i < arrayUsers.length; i++) {
   }
 }
 
-console.log(simpleUserCount);
+console.log(`Простых юзеров ${simpleUserCount}`);
