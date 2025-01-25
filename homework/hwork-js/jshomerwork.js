@@ -113,7 +113,7 @@ function calculator(num1, num2, operator) {
     case "divide":
       return num2 !== 0 ? num1 / num2 : "Делить на ноль нельзя";
     default:
-      return "Неправильный оператор";
+      return "Неправильный оператор!";
   }
 }
 
