@@ -119,3 +119,30 @@ function calculator(num1, num2, operator) {
 
 const result1 = calculator(2, 3, "plus");
 console.log(`Итог калькулятора ${result1}`);
+
+console.log("Урок 102 объекты");
+const users = [
+  {
+    name: "nikita",
+    age: 23,
+    isAdmin: true,
+  },
+  {
+    name: "oleg",
+    age: 22,
+    isAdmin: false,
+  },
+];
+
+users.push({
+  name: "valera",
+  age: 24,
+  isAdmin: false,
+});
+
+console.log(users);
+console.log(`Валеру добавил через users.push()`);
+
+const hello = "hello world";
+console.log("использую toUpperCase()");
+console.log(hello.toUpperCase());
