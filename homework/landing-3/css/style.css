@@ -347,9 +347,6 @@
   opacity: 1;
 }
 
-.footer__contact-list {
-}
-
 .footer__contact-item {
   margin-bottom: 10px;
 }
@@ -387,9 +384,6 @@
   gap: 15px;
 }
 
-.socials__item {
-}
-
 .socials__link path {
   transition: var(--transition);
 }
@@ -397,10 +391,6 @@
 .socials__link:hover path {
   fill: var(--accent-color);
 }
-
-/* ========================================================= */
-/* ========================================================= */
-/* ========================================================= */
 
 @media (max-width: 1200px) {
   .hero__img {
@@ -413,8 +403,6 @@
     max-width: none;
     margin-top: 30px;
   }
-
-  /* ----------- */
 
   .footer__inner {
     justify-content: space-between;
@@ -456,8 +444,6 @@
   .burger-icon {
     display: flex;
   }
-
-  /* ----------- */
 
   .footer__inner {
     justify-content: center;
