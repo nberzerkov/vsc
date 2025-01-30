@@ -807,8 +807,6 @@
     width: 10px;
   }
 
-  /* ---------------------- */
-
   .gallery__content {
     flex-direction: column;
   }
