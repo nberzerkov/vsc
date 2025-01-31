@@ -98,6 +98,8 @@
   justify-content: center;
 }
 
+/* ========================================================= */
+
 .program__top {
   display: flex;
   align-items: center;
@@ -344,6 +346,8 @@
   max-width: 274px;
 }
 
+/* ================================================ */
+
 .gallery__inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -454,6 +458,8 @@
 .gallery__slide img {
   width: 100%;
 }
+
+/* ================================================ */
 
 .testimonials__inner {
   display: flex;
@@ -613,44 +619,55 @@
   background: var(--accent-color);
 }
 
+/* ================================================ */
+
 .contact {
   padding: 140px 0;
   background: url("../img/decor/bg-contact.png") 50% 0% / cover no-repeat;
 }
+
 .contact__inner {
   display: flex;
   align-items: end;
   gap: 84px;
   position: relative;
 }
+
 .contact__inner::before {
   content: url("../img/decor/berries.png");
   position: absolute;
   top: -4%;
   left: 0;
 }
+
 .contact__inner::after {
   content: url("../img/decor/berries-2.png");
   position: absolute;
   top: 4%;
   right: 0;
 }
+
 .contact__img img {
   width: 100%;
   filter: drop-shadow(0px 4px 30px #c6b0a14d);
 }
+
 .contact__body {
   max-width: 420px;
 }
+
 .contact__title {
   margin-bottom: 20px;
 }
+
 .contact__text {
   margin-bottom: 40px;
 }
+
 .contact__label {
   margin-bottom: 10px;
 }
+
 .contact__input {
   display: block;
   width: 100%;
@@ -684,13 +701,16 @@
   font-size: 13px;
   margin-bottom: 20px;
 }
+
 .contact__check-label a {
   text-decoration: underline;
   transition: var(--transition);
 }
+
 .contact__check-label a:hover {
   color: var(--accent-color);
 }
+
 .contact__checkbox {
   appearance: none;
   width: 16px;
@@ -702,6 +722,7 @@
   cursor: pointer;
   position: relative;
 }
+
 .contact__checkbox::before {
   content: "";
   position: absolute;
@@ -710,16 +731,24 @@
   opacity: 0;
   transition: var(--transition);
 }
+
 .contact__checkbox:hover {
   border: 1.5px solid var(--accent-color);
 }
+
 .contact__checkbox:checked {
   background: var(--accent-color);
   border: 1.5px solid var(--accent-color);
 }
+
 .contact__checkbox:checked::before {
   opacity: 1;
 }
+
+/* ================================================ */
+/* ================================================ */
+/* ================================================ */
+/* ================================================ */
 
 @media (max-width: 1200px) {
   .hero__img {
@@ -733,6 +762,8 @@
     margin-top: 30px;
   }
 
+  /* ----------- */
+
   .program__top {
     flex-direction: column;
     align-items: stretch;
@@ -742,9 +773,13 @@
     flex-wrap: wrap;
   }
 
+  /* ----------- */
+
   .contact__inner::after {
     top: -20%;
   }
+
+  /* ----------- */
 
   .footer__inner {
     justify-content: space-between;
@@ -770,6 +805,8 @@
     grid-column: 1/-1;
   }
 
+  /* -------------- */
+
   .accordion-list__control {
     padding: 25px 30px;
     font-size: 35px;
@@ -778,6 +815,8 @@
   .accordion-content {
     gap: 30px;
   }
+
+  /* --------------------- */
 
   .contact__inner {
     align-items: center;
@@ -815,6 +854,8 @@
     display: flex;
   }
 
+  /* ----------- */
+
   .program__action {
     max-width: none;
     grid-template: repeat(3, auto) / minmax(280px, 1fr) 1fr;
@@ -823,6 +864,8 @@
   .program__img {
     display: none;
   }
+
+  /* ----------- */
 
   .gallery__inner {
     grid-template: none;
@@ -836,10 +879,14 @@
     display: none;
   }
 
+  /* ----------- */
+
   .testimonials__scrollbar.swiper-scrollbar {
     width: 50%;
     margin: 0 auto;
   }
+
+  /* ----------- */
 
   .contact__inner {
     justify-content: center;
@@ -848,6 +895,8 @@
   .contact__img {
     display: none;
   }
+
+  /* ----------- */
 
   .footer__inner {
     justify-content: center;
@@ -873,6 +922,10 @@
 }
 
 @media (max-width: 800px) {
+  html {
+    scroll-padding-top: 50px;
+  }
+
   .hero__content {
     max-width: none;
     display: flex;
@@ -891,6 +944,8 @@
     margin: 0 0 30px;
   }
 
+  /* ---------------- */
+
   .about__inner {
     grid-template: none;
   }
@@ -907,6 +962,8 @@
   .about__grid {
     grid-template: none;
   }
+
+  /* ---------------- */
 
   .tab-conrols {
     gap: 10px;
@@ -928,6 +985,8 @@
     max-width: none;
   }
 
+  /* ------------- */
+
   .testimonials__inner {
     align-items: stretch;
     flex-direction: column;
@@ -936,6 +995,8 @@
   .testimonials__nav {
     align-self: end;
   }
+
+  /* ------------ */
 
   .contact__inner::before {
     content: none;
@@ -957,9 +1018,13 @@
     font-size: 12vw;
   }
 
+  /* -------------------- */
+
   .header__hero {
     padding-bottom: 80px;
   }
+
+  /* -------------------- */
 
   .about__img-conrol {
     bottom: 0;
@@ -977,6 +1042,8 @@
   .about__grid-item {
     padding: 10px 15px;
   }
+
+  /* ---------------- */
 
   .program__title {
     text-align: center;
@@ -1020,6 +1087,8 @@
     width: 10px;
   }
 
+  /* ---------------------- */
+
   .gallery__content {
     flex-direction: column;
   }
@@ -1027,6 +1096,8 @@
   .gallery__inner {
     margin-bottom: 20px;
   }
+
+  /* ---------------------- */
 
   .testimonials__inner {
     margin-bottom: 20px;
@@ -1037,6 +1108,8 @@
     flex-direction: column;
     text-align: center;
   }
+
+  /* ---------------------- */
 
   .contact {
     padding-bottom: 80px;
@@ -1062,6 +1135,8 @@
     padding: 0 15px 45px;
   }
 
+  /* ----------------- */
+
   .program__action {
     grid-template: none;
   }
@@ -1081,6 +1156,8 @@
   .accordion-content__item {
     margin-bottom: 10px;
   }
+
+  /* -------------- */
 
   .testimonials__slide {
     padding: 30px 10px 30px;
