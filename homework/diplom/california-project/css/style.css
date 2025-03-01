@@ -5071,6 +5071,7 @@ textarea.w-select {
   .ideas-para {
     text-align: center;
     font-size: 16px;
+    padding: 0px 10px;
   }
 
   .email-head {
