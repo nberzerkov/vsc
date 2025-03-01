@@ -3117,7 +3117,7 @@ textarea.w-select {
 
 .paragraph-3.p-gadgets {
   margin-bottom: 32px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .wrapper {
@@ -3480,8 +3480,13 @@ textarea.w-select {
   line-height: 30px;
 }
 
-.search-section {
+/* .search-section {
   border: 1px solid #dce5e2;
+} */
+
+.footer {
+  border-top: 1px solid #dce5e2;
+  background-color: #f8f9fa;
 }
 
 .see-all {
@@ -3495,6 +3500,7 @@ textarea.w-select {
   display: flex;
   align-items: center;
   color: #000;
+  text-decoration: none;
 }
 
 .link-block-2.w--current {
@@ -3762,7 +3768,7 @@ textarea.w-select {
 }
 
 .footer-dark {
-  background-color: #f5f7fa;
+  background-color: #f8f9fa;
   border-bottom: 1px solid #e4ebf3;
   padding: 50px 30px 15px;
   position: relative;
@@ -4081,8 +4087,13 @@ textarea.w-select {
 .see-cell-new {
   color: var(--_colors---text);
   background-color: #f8f9fa;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+}
+
+.cellimg {
+  height: 250px;
+  width: 259px;
 }
 
 .quick-stack-7 {
