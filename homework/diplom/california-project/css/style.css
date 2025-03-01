@@ -5074,6 +5074,10 @@ textarea.w-select {
     padding: 0px 10px;
   }
 
+  .form {
+    right: -5%;
+  }
+
   .email-head {
     font-size: 28px;
   }
