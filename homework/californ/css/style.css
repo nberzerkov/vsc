@@ -3221,15 +3221,6 @@ textarea.w-select {
   width: auto;
 }
 
-.dd-list2 {
-  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0s linear 0.3s;
-  visibility: hidden;
-}
-
-.dd-list2.w--open {
-  visibility: visible;
-}
-
 .watch-img {
   text-align: left;
   height: 292px;
